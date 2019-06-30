@@ -12,7 +12,7 @@
     font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
-    border-bottom: 1px solid $color-grey-ligth-2;
+    border-bottom: $border;
 
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,6 @@
 
 .content {
     display: flex;
-
 }
 
 .sidebar {
@@ -35,8 +34,27 @@
 
 .hotel-view {
     background-color: #fff;
+    flex: 1;
+}
 
-    height: 80rem;
+.detail{
+    display: flex;
+    padding: 4.5rem;
+    background-color: $color-grey-ligth-1;
+    border-bottom: $border;
+}
 
+.description {
+    font-size: 1.4rem;
+
+    background-color: #fff;
+    box-shadow: $shadow-light;
+    padding: 3rem;
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+}
+
+.user-reviews {
+    background-color: yellowgreen;
     flex: 1;
 }
